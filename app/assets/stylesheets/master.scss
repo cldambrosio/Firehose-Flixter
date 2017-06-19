@@ -88,3 +88,28 @@ body {
   border-radius: 0.25rem;
   margin-bottom: 10px;
 }
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  padding-top: 30px;
+  height: 130px;
+}
+
+.lesson a {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.section {
+  border: 1px solid;
+  boder-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
