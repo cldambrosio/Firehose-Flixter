@@ -24,7 +24,7 @@ class EnrollmentsController < ApplicationController
 
   rescue Stripe::CardError => e
     flash[:error] = e.message
-    redirect_to root_path, alert: "Please click on Pay with Card to Enroll"
+    redirect_to root_path
   end
 
   private
