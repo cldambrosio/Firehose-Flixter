@@ -170,3 +170,7 @@ ul.sections {
 ul .header:hover {
   color: #999999;
 }
+
+.faded {
+  background-image: -webkit-linear-gradient(left, #ffffff, #e4e4e4, #ffffff);
+}
