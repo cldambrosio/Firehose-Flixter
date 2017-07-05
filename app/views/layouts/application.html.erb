@@ -55,9 +55,32 @@
 
     <div id="footer">
       <div class="container">
-        <b>Footer Here</b>
-        <br />
-        <%= link_to 'Teach a course', new_instructor_course_path %>
+        <div class="row text-center">
+          <div class="col-12 col-md-3">
+            <h5>Teachers</h5>
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>About</h5>
+            <%= link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', '#' %>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Contact</h5>
+            claire.dambrosio@gmail.com
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Social</h5>
+            <%= link_to 'https://github.com/cldambrosio', target: :_blank do %>
+              <i class="fa fa-github-square fa-2x"></i>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
 
